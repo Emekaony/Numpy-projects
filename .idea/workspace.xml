@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5194d58-bd43-497a-92ac-c016703d3a47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/pandas_exploration.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/making_sense_of_scipy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/making_sense_of_scipy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/pandas_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/pandas_exploration.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1655060794692" duration="2128000" />
       <workItem from="1655181895748" duration="608000" />
       <workItem from="1655256336073" duration="960000" />
-      <workItem from="1655792531496" duration="1012000" />
+      <workItem from="1655792531496" duration="2230000" />
     </task>
     <servers />
   </component>
