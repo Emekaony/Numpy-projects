@@ -4,6 +4,7 @@
     <list default="true" id="e5194d58-bd43-497a-92ac-c016703d3a47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/pandas_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/pandas_exploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,7 @@
       <workItem from="1655181895748" duration="608000" />
       <workItem from="1655256336073" duration="960000" />
       <workItem from="1655792531496" duration="2230000" />
+      <workItem from="1656043635098" duration="2442000" />
     </task>
     <servers />
   </component>
@@ -107,6 +109,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/numpy_projects$main.coverage" NAME="main Coverage Results" MODIFIED="1655062515530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/numpy_projects$main.coverage" NAME="main Coverage Results" MODIFIED="1656044589987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

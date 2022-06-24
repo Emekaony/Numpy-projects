@@ -1,25 +1,33 @@
-class Human:
-    def __init__(self, name, age, coordinates):
-        self.name = name
-        self.age = age
-        self.coordinates = coordinates
+class NotWorking:
+    def __init__(self, why, what_did_you_try, new_to_coding, willing_to_pay):
+        self.why = why
+        self.whatDidYouTry = what_did_you_try
+        self.newToCoding = new_to_coding
+        self.willingToPay = willing_to_pay
 
-    def __str__(self):
-        return str(self.coordinates)
+    def say_why_not_working(self):
+        print(str(self.why))
 
-    def sayHello(self):
-        print(f"Hello there, {self.name}")
+    def say_what_user_did(self):
+        print(self.whatDidYouTry)
 
-    def move(self, direction):
-        self.coordinates["x_coord"] += direction["x"]
-        self.coordinates["y_coord"] += direction["y"]
-        return self.coordinates
+    def help(self):
+        if str(self.why):
+            print("There is nothing we can do to help you my guy!!")
+
+    def helpWhenTheyPay(self):
+        solution = ""
+        if self.willingToPay:
+            # print("Okay, since you are willing to pay, we might actually have a solution hehehehe!!")
+            solution = "You just have to delete matlab and re download it!"
+            print(solution)
+        else:
+            solution = "Sorry, we do not have a solution; so we cannot help you"
+            print(solution)
 
 
-Emeka = Human("Nnaemeka", 20, {"x_coord": 33, "y_coord": -99})
-print(Emeka)
-
-direction = {
-    "x": 44,
-    "y": 32
-}
+Emeka = NotWorking("UI Control shit in matlab", "I tried googling lol. I also changed my matlab credentials", False,
+                   True)
+Emeka.say_why_not_working()
+Emeka.say_what_user_did()
+Emeka.helpWhenTheyPay()
