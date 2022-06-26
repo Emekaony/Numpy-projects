@@ -15,7 +15,7 @@ class NotWorking:
         if str(self.why):
             print("There is nothing we can do to help you my guy!!")
 
-    def helpWhenTheyPay(self):
+    def help_when_theyPay(self):
         solution = ""
         if self.willingToPay:
             # print("Okay, since you are willing to pay, we might actually have a solution hehehehe!!")
@@ -30,4 +30,4 @@ Emeka = NotWorking("UI Control shit in matlab", "I tried googling lol. I also ch
                    True)
 Emeka.say_why_not_working()
 Emeka.say_what_user_did()
-Emeka.helpWhenTheyPay()
+Emeka.help_when_theyPay()
